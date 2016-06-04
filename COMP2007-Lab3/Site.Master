@@ -22,7 +22,7 @@
     <form id="form1" runat="server">
         <bs3:Navbar runat="server" ID="PrimaryNav"></bs3:Navbar>
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
         <footer class="footer navbar navbar-fixed-bottom bg-info">

@@ -40,12 +40,12 @@ namespace COMP2007_Lab3 {
         protected global::COMP2007_Lab3.Navbar PrimaryNav;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// MainContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
     }
 }
