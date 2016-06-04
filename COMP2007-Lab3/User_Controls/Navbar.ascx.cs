@@ -7,8 +7,8 @@ using System.Web.UI.WebControls;
 
 /**
  * @author: Fei Wang
- * @date: May 26, 2016
- * @version: 0.0.1
+ * @date: June 3, 2016
+ * @version: 0.0.2 - Updated AddActiveClass method to include new links
  */
 
 namespace COMP2007_Lab3
@@ -32,6 +32,15 @@ namespace COMP2007_Lab3
             {
                 case "Home Page":
                     home.Attributes.Add("class", "active");
+                    break;
+                case "Students":
+                    students.Attributes.Add("class", "active");
+                    break;
+                case "Courses":
+                    courses.Attributes.Add("class", "active");
+                    break;
+                case "Departments":
+                    departments.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");

@@ -19,7 +19,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <bs3:Navbar runat="server"/>
+        <bs3:Navbar runat="server" ID="PrimaryNav"></bs3:Navbar>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
