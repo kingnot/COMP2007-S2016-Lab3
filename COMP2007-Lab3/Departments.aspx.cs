@@ -74,11 +74,6 @@ namespace COMP2007_Lab3
             }
         }
 
-        protected void DepartmentsGridView_PageIndexChanging(object sender, GridViewPageEventArgs e)
-        {
-
-        }
-
         protected void DepartmentsGridView_Sorting(object sender, GridViewSortEventArgs e)
         {
             // get the column to sort by
