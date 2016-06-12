@@ -6,7 +6,7 @@
             <div class="col-md-offset-2 col-md-8">
                 <h1>Student List</h1>
                 <a href="StudentDetails.aspx" class="btn btn-success btn-sm"><i class="fa fa-plus"></i> Add Student</a>
-                <label for="PageSizeDropDownList">Recors per page: </label>
+                <label for="PageSizeDropDownList">Records per page: </label>
 
                 <asp:DropDownList ID="PageSizeDropDownList" runat="server" AutoPostBack="true" 
                     CssClass="btn btn-default btn-sm dropdown-toggle" OnSelectedIndexChanged="PageSizeDropDownList_SelectedIndexChanged">
