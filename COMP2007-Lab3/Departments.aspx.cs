@@ -114,5 +114,23 @@ namespace COMP2007_Lab3
                 }
             }
         }
+
+        protected void DepartmentsGridView_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            // set the new page number
+            DepartmentsGridView.PageIndex = e.NewPageIndex;
+
+            //refresh the grid
+            this.GetDepartments();
+        }
+
+        protected void PageSizeDropDownList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // set the new page size
+            DepartmentsGridView.PageSize = Convert.ToInt32(PageSizeDropDownList.SelectedValue);
+
+            // refresh the grid
+            this.GetDepartments();
+        }
     }
 }
